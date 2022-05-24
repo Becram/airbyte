@@ -81,7 +81,7 @@ public class TemporalUtils {
     return createTemporalCloudService(
         configs.getTemporalCloudClientCertPath(),
         configs.getTemporalCloudClientKeyPath(),
-        configs.getTemporalHost(),
+        configs.getTemporalCloudHost(),
         configs.getTemporalCloudNamespace());
   }
 
